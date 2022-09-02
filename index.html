@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/mac.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+       
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="container">
+            <div class="row row-cols-1 row-cols-md-2">
+                <div class="col">
+                    <img src="image/mackbook.JPG" alt="image" class="img-fluid">
+                </div>
+                <div class="col">
+                    <div id="description">
+                        <h2>Customize your Blue 24-inch iMac with Apple M1 chip</h2>
+                        <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU,
+                            and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt/USB 4 ports
+                            Magic Mouse Magic Keyboard US English</p>
+                    </div>
+                    <!-- memory area starts-->
+                    <div class="mt-4">
+                        <h6 class="fw-bold">Memory</h6>
+                        <div id="memory">
+                            <button class="m-1 btn btn-outline-dark">8GB unified memory</button>
+                            <button class="m-1 btn btn-outline-dark">16GB unified memory</button>
+                        </div>
+                    </div>
+                    <!-- memory area end-->
+
+                    <!-- storage area starts -->
+                    <div class="mt-4">
+                        <h6 class="fw-bold">Storage</h6>
+                        <div id="storage">
+                            <button class="m-1 btn btn-outline-dark">256GB SSD storage</button>
+                            <button class="m-1 btn btn-outline-dark">512GB SSD storage</button>
+                            <button class="m-1 btn btn-outline-dark">1TB SSD storage</button>
+                        </div>
+                    </div>
+                    <!-- storage area ends -->
+
+                    <!-- delivery area starts -->
+                    <div class="mt-4">
+                        <h6 class="fw-bold">Delivery</h6>
+                        <div id="delivery">
+                            <button class="m-1 btn btn-outline-dark">Friday, Aug 25 Free Prime Delivery</button>
+                            <button class="m-1 btn btn-outline-dark">Friday, Aug 21 Delivery charge $20</button>
+                        </div>
+                    </div>
+                    <!-- delivery area end -->
+
+                    <!-- calculation part starts -->
+                    <div class="mt-4 w-50 pricing">
+                        <div id="basePrice" class="border-bottom py-2 d-flex justify-content-between">
+                            <h6 class="fw-bold">Best Price</h6>
+                            <h6 class="fw-bold">$<span>1299</span></h6>
+                        </div>
+                        <div id="extraMemoryCost" class="border-bottom py-2 d-flex justify-content-between">
+                            <h6 class="fw-bold">Extra Memory Cost</h6>
+                            <h6 class="fw-bold">$<span>0</span></h6>
+                        </div>
+                        <div id="extraStorageCost" class="border-bottom py-2 d-flex justify-content-between">
+                            <h6 class="fw-bold">Extra Storage Cost</h6>
+                            <h6 class="fw-bold">$<span>0</span></h6>
+                        </div>
+                        <div id="deliveryCharge" class="border-bottom py-2 d-flex justify-content-between">
+                            <h6 class="fw-bold">Delivery Charges</h6>
+                            <h6 class="fw-bold">$<span>0</span></h6>
+                        </div>
+                        <div id="totalPrice" class="border-top border-dark py-2 d-flex justify-content-between">
+                            <h6 class="fw-bold">Total Price</h6>
+                            <h6 class="fw-bold">$<span>1299</span></h6>
+                        </div>
+                        
+                        <!-- adding promo code -->
+                        <div class="border-top py-2">
+                            <h6>Add Promo Code</h6>
+                            <form action="" id="promoCodeForm" class="d-flex flex-column flex-md-row ">
+                                <input type="text" name="" id="inputField" class="form-control me-0 me-md-1 mb-1 mb-md-0">
+                                <input type="submit" value="Apply" class=" btn btn-danger py-1">
+                            </form>
+                        </div>
+                    </div>
+                    <!-- calculating area ends -->
+                </div>
+            </div>
+            <div class="border-top py-3">
+                <h1 class="text-center" id="total">Total: $<span>1299</span></h1>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

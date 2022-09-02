@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* media query for under 576 px devices */
+@media screen and (max-width:576px) {
+    button, .pricing, input[type=text], input[type=submit]{
+width: 100% !important;
+    } 
+}
